@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "Diffie-Hellman",
+        "Finite Fields"
+    ],
+    "prerequisites": [
+        "Cryptography",
+        "Modular Arithmetic"
+    ],
+    "summary": "This challenge requires performing a Diffie-Hellman key exchange using a hardcoded 2048-bit prime and modular exponentiation to compute a shared secret. It tests the solver's understanding of finite field arithmetic and secure key agreement protocols."
+}

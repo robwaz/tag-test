@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "path traversal",
+        "flask"
+    ],
+    "prerequisites": [
+        "python",
+        "filesystem"
+    ],
+    "summary": "This challenge presents multiple Flask endpoints employing a naive sanitization technique (using strip('/.')) to prevent path traversal, which remains vulnerable to directory traversal attacks. Solvers must exploit this flawed filtering to access files outside the intended /files directory."
+}

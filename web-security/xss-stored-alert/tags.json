@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "stored xss",
+        "javascript"
+    ],
+    "prerequisites": [
+        "html",
+        "javascript"
+    ],
+    "summary": "This challenge requires exploiting a stored XSS vulnerability in a Flask web application by injecting a <script> tag that executes alert('PWNED') in the victim's browser."
+}

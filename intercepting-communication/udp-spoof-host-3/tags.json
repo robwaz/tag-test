@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "UDP",
+        "Spoofing",
+        "Source Port"
+    ],
+    "prerequisites": [
+        "Networking",
+        "Sockets"
+    ],
+    "summary": "This challenge requires attackers to forge a UDP response with the correct, yet initially unknown, ephemeral source port in order to trigger the client to send its flag. It mimics a classic DNS spoofing vulnerability where bypassing source port randomization is key to success."
+}

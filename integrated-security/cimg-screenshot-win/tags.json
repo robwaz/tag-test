@@ -1,0 +1,17 @@
+{
+    "tags": [
+        "binary exploitation",
+        "reverse engineering",
+        "buffer overflow",
+        "cimg",
+        "framebuffer"
+    ],
+    "prerequisites": [
+        "x86-64 assembly",
+        "gdb",
+        "objdump",
+        "cimg format"
+    ],
+    "summary":"Craft a CIMG image file to trigger a buffer overflow and overwrite the return address to call a win function, which takes a screenshot of the program's framebuffer to reveal the flag.",
+    "summary1": "This challenge involves crafting a malicious CIMG image file to exploit a buffer overflow vulnerability. The goal is to overwrite the return address on the stack to redirect execution to a hidden `win` function. When called, this function takes a screenshot of the application's framebuffer, which contains the flag, and writes it to a file."
+}

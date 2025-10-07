@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "HTTP",
+        "curl",
+        "path"
+    ],
+    "prerequisites": [
+        "curl",
+        "HTTP"
+    ],
+    "summary": "This challenge requires participants to send an HTTP request with a precisely crafted path. The server generates a random path value and validates that the request\u2019s path, sent using the curl command, exactly matches this value. Additionally, the server checks that the request is made from the expected client environment, ensuring proper execution context before releasing the flag."
+}

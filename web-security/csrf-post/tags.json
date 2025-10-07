@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "csrf",
+        "post"
+    ],
+    "prerequisites": [
+        "html",
+        "javascript"
+    ],
+    "summary": "This challenge requires crafting an HTML form that auto-submits a POST request to bypass the browser\u2019s Same-Origin Policy, thereby exploiting a CSRF vulnerability. By tricking the victim\u2019s admin session to submit the form, the attacker forces an action that exposes the flag."
+}

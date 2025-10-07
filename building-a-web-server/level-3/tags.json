@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "socket",
+        "bind"
+    ],
+    "prerequisites": [
+        "assembly",
+        "linux"
+    ],
+    "summary": "This challenge is the third stage in a web server series where the player must write an assembly program to bind a network socket to a specific IP and port (0.0.0.0:80). The challenge harness uses sandboxing with Linux namespaces and strace to ensure that the proper system calls (such as socket and bind) are executed. Familiarity with Linux system calls and assembly language is required to successfully complete this step."
+}

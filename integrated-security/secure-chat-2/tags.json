@@ -1,0 +1,14 @@
+{
+    "tags": [
+        "binary exploitation",
+        "cryptography",
+        "secure chat",
+        "heap exploitation"
+    ],
+    "prerequisites": [
+        "reverse engineering",
+        "pwntools",
+        "gdb"
+    ],
+    "summary": "A more advanced secure chat challenge, likely involving a more complex vulnerability such as a heap-based overflow or a more subtle cryptographic flaw."
+}

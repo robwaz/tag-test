@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "HTTP",
+        "Query"
+    ],
+    "prerequisites": [
+        "Python",
+        "HTTP"
+    ],
+    "summary": "This challenge requires crafting an HTTP GET request using Python that includes multiple query parameters. In the arg_multi challenge, the parameters 'a' and 'b' must match specific values\u2014with 'b' containing special characters that need proper URL encoding. Successfully submitting the correctly formatted request returns the flag."
+}

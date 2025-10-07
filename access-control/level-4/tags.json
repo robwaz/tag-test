@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "setuid",
+        "permissions"
+    ],
+    "prerequisites": [
+        "linux",
+        "chmod"
+    ],
+    "summary": "This challenge demonstrates the effect of the SETUID bit by setting /bin/cat to 4755, allowing participants to observe how elevated privileges are granted through modified UNIX file permissions. Solving it requires understanding UNIX permission mechanics and the security implications of SETUID."
+}

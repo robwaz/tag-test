@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "RSA",
+        "Multiplicative"
+    ],
+    "prerequisites": [
+        "RSA",
+        "Modular Arithmetic"
+    ],
+    "summary": "This challenge provides an RSA signature oracle that uses raw RSA operations and exhibits the multiplicative property, allowing attackers to forge a signature for the 'flag' command by combining signatures of carefully chosen messages."
+}

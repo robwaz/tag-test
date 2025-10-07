@@ -1,0 +1,19 @@
+{
+    "tags": [
+        "binary exploitation",
+        "cryptography",
+        "buffer overflow",
+        "aes",
+        "ecb",
+        "decryption oracle",
+        "shellcoding"
+    ],
+    "prerequisites": [
+        "c programming",
+        "x86-64 assembly",
+        "gdb",
+        "openssl"
+    ],
+    "summary": "Inject and execute shellcode by exploiting a buffer overflow vulnerability, using a crafted AES-ECB ciphertext to overwrite the return address to point to the shellcode on the stack",
+    "summary1": "This challenge involves a buffer overflow vulnerability that can be exploited by providing a crafted ciphertext. The program decrypts the ciphertext using AES-ECB and the result is written to the stack, causing a buffer overflow. The goal is to overwrite the return address with the address of shellcode that is also injected onto the stack. The challenge provides the necessary information to calculate the buffer overflow offset and the address of the shellcode."
+}

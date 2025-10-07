@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "sha256",
+        "collision"
+    ],
+    "prerequisites": [
+        "cryptography",
+        "bruteforce"
+    ],
+    "summary": "This challenge requires participants to find an input whose SHA256 hash shares the same first 3 bytes as that of a secret flag, exploiting partial hash verification. It highlights the risks of using only a fragment of a hash in digital signature schemes."
+}

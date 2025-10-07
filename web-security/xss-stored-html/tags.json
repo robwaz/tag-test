@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "stored XSS",
+        "HTML injection"
+    ],
+    "prerequisites": [
+        "HTML",
+        "HTTP"
+    ],
+    "summary": "This challenge exploits a stored XSS vulnerability in a forum-like web application where unsanitized user input is injected into the HTML. The goal is to inject a valid textbox so that a simulated victim encounters three <input> elements, thereby releasing the flag."
+}

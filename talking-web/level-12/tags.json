@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "URL-encoding",
+        "HTTP"
+    ],
+    "prerequisites": [
+        "Python",
+        "HTTP"
+    ],
+    "summary": "This challenge requires crafting an HTTP request in Python where the URL path is precisely encoded. The server, using Flask, verifies that the decoded request path (which includes spaces and hex segments) exactly matches a generated string. Correct URL encoding is essential to bypass the validation and retrieve the flag."
+}

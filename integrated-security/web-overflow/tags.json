@@ -1,0 +1,17 @@
+{
+    "tags": [
+        "binary exploitation",
+        "web security",
+        "buffer overflow",
+        "http"
+    ],
+    "prerequisites": [
+        "c programming",
+        "x86-64 assembly",
+        "gdb",
+        "pwntools",
+        "http protocol"
+    ],
+    "summary":"Exploit a buffer overflow in a web server by sending a crafted HTTP GET request with a long path to overwrite the return address and execute a win function.",
+    "summary1": "The web server has a buffer overflow vulnerability in its request handling logic. By sending an HTTP GET request with an overly long path, an attacker can overwrite the return address on the stack. The goal is to redirect execution to a `win` function within the binary, which then prints the flag. This requires identifying the correct offset to the return address and the address of the `win` function."
+}

@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "command injection",
+        "piping"
+    ],
+    "prerequisites": [
+        "piping",
+        "shell"
+    ],
+    "summary": "This challenge forces you to bypass a semicolon filter by leveraging alternative shell chaining techniques, particularly using pipes. Solvers must exploit unsanitized input in a web directory listing service to execute unintended command sequences."
+}

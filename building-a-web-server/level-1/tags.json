@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "sandboxing",
+        "strace"
+    ],
+    "prerequisites": [
+        "assembly",
+        "syscall"
+    ],
+    "summary": "This challenge requires you to write a minimal program that immediately exits. Although presented within a web server series, level 1 focuses solely on triggering the exit system call. The challenge harness employs Linux namespaces for sandboxing and strace to verify correct syscall behavior, so familiarity with assembly and syscalls is essential."
+}

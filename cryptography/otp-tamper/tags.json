@@ -1,0 +1,13 @@
+{
+    "tags": [
+        "cryptography",
+        "one-time pad",
+        "malleability"
+    ],
+    "prerequisites": [
+        "python",
+        "cryptography basics",
+        "xor"
+    ],
+    "summary": "Exploit the malleability of the one-time pad (OTP) cipher. By intercepting the ciphertext for the command 'sleep' and XORing it with the XOR of 'sleep' and 'flag!', you can craft a new ciphertext that decrypts to 'flag!' and reveals the flag."
+}

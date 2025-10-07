@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "command injection",
+        "filter bypass"
+    ],
+    "prerequisites": [
+        "linux",
+        "shell"
+    ],
+    "summary": "This challenge features a Flask web service that inadequately sanitizes user input before passing it to an 'ls -l' command, leaving room for command injection via blacklist bypass techniques. Solvers must exploit the filtering shortcomings to inject additional shell commands."
+}

@@ -1,0 +1,15 @@
+{
+    "tags": [
+        "binary exploitation",
+        "cryptography",
+        "secure chat",
+        "format string vulnerability"
+    ],
+    "prerequisites": [
+        "reverse engineering",
+        "pwntools",
+        "gdb",
+        "format string exploits"
+    ],
+    "summary": "An even more advanced secure chat challenge, potentially introducing a new vulnerability class like a format string bug, and requiring more sophisticated exploitation techniques."
+}

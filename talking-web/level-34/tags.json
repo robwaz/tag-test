@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "cookie",
+        "curl"
+    ],
+    "prerequisites": [
+        "curl",
+        "cookies"
+    ],
+    "summary": "This challenge is a web-based task where the server sets a cookie during an HTTP request. It requires the participant to use curl so that the cookie provided in the response is correctly sent back in a subsequent request to obtain the flag."
+}

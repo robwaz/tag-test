@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "curl",
+        "url-encoding"
+    ],
+    "prerequisites": [
+        "curl",
+        "HTTP"
+    ],
+    "summary": "This challenge requires you to send an HTTP request to 127.0.0.1:80 with a specially formatted path that includes spaces. You must use curl to URL encode the path so that the server decodes it to match its predetermined random value and returns the flag."
+}

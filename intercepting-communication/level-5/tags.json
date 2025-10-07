@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "packet-capture",
+        "tcp-sniffing"
+    ],
+    "prerequisites": [
+        "networking",
+        "wireshark"
+    ],
+    "summary": "This challenge involves capturing live TCP traffic on port 31337 using Wireshark to intercept a flag transmitted from a client host to a server host."
+}

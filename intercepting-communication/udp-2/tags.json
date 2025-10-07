@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "UDP",
+        "source port"
+    ],
+    "prerequisites": [
+        "sockets",
+        "networking"
+    ],
+    "summary": "This challenge requires participants to bind a UDP socket to a specific source port (31338) before sending the 'Hello, World!' message, as indicated by the server's code. Correctly setting the source port triggers the flag response from the server."
+}

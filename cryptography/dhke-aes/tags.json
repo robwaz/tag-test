@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "DHKE",
+        "AES"
+    ],
+    "prerequisites": [
+        "cryptography",
+        "modular arithmetic"
+    ],
+    "summary": "This challenge uses a Diffie-Hellman key exchange to derive an AES key for encrypting a flag. Players must manipulate the public key input to force a weak shared secret and decrypt the AES-CBC ciphertext."
+}

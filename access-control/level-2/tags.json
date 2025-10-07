@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "access-control",
+        "unix-permissions"
+    ],
+    "prerequisites": [
+        "unix",
+        "bash"
+    ],
+    "summary": "This challenge requires participants to exploit misconfigurations in Unix file permissions and access control mechanisms, including manipulating ownership, permission bits, and SETUID, as well as answering Bell\u2013LaPadula MAC questions to capture the flag."
+}

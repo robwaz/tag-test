@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "AES-ECB",
+        "CPA",
+        "Base64"
+    ],
+    "prerequisites": [
+        "ECB Oracle",
+        "CPA Attack"
+    ],
+    "summary": "This challenge presents an AES-ECB encryption oracle that concatenates attacker-supplied posts with a secret flag (stored in a SQLite database) and returns the ciphertext in base64. Solvers must craft chosen plaintexts to exploit ECB\u2019s deterministic block structure and recover the hidden flag."
+}

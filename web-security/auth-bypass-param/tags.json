@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "auth bypass",
+        "parameter tampering"
+    ],
+    "prerequisites": [
+        "SQL",
+        "HTTP"
+    ],
+    "summary": "This challenge involves bypassing a Flask web application's authentication mechanism by manually setting the URL parameter to impersonate the admin user. The vulnerability arises from the application's misplaced trust in URL parameters, despite using SQL for user management."
+}

@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "CSRF",
+        "HTTP GET"
+    ],
+    "prerequisites": [
+        "HTTP",
+        "Same-origin"
+    ],
+    "summary": "This challenge requires exploiting a CSRF vulnerability by forcing an authenticated user to trigger a GET request that publishes a secret post. The attacker must set up a malicious webpage that leverages browser behavior under the Same-origin Policy to forge sensitive requests."
+}

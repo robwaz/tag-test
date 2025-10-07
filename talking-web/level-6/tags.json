@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "HTTP",
+        "HostHeader"
+    ],
+    "prerequisites": [
+        "Python",
+        "HTTP"
+    ],
+    "summary": "In this challenge you must craft an HTTP request to 127.0.0.1:80 with the Host header set to a specific, random value provided in the instructions. The server, built with Flask, validates that the header exactly matches the expected value and that the request originates from a Python client. Correctly setting the header and using the required client process will reveal the flag."
+}

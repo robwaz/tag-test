@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "SQL injection",
+        "schema"
+    ],
+    "prerequisites": [
+        "SQL",
+        "SQLite"
+    ],
+    "summary": "This challenge requires exploiting an SQL injection vulnerability to enumerate the SQLite schema and discover a randomized user table. By injecting malicious queries, attackers can reveal the table layout and retrieve the flag from the hidden admin record."
+}

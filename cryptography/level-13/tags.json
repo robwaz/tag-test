@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "certificates",
+        "RSA"
+    ],
+    "prerequisites": [
+        "RSA",
+        "PKI"
+    ],
+    "summary": "This challenge involves creating a user certificate and signing it with a provided root private key within a simple PKI framework. Once the certificate is verified using RSA-based digital signatures, the flag is encrypted using the user\u2019s public key."
+}

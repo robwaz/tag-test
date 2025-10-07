@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "socket",
+        "sniffing"
+    ],
+    "prerequisites": [
+        "tcpdump",
+        "networking"
+    ],
+    "summary": "This challenge has a simulated network where a flag is exfiltrated one character at a time over a socket connection on port 31337. Participants must monitor the slow, continuous transmission to capture and reconstruct the flag."
+}

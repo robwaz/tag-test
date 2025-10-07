@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "access control",
+        "setuid",
+        "BellLaPadula"
+    ],
+    "prerequisites": [
+        "unix",
+        "pwntools"
+    ],
+    "summary": "This challenge features multiple levels where players must manipulate UNIX file ownership and permission bits\u2014including setuid configurations\u2014to access a flag. It also integrates interactive questions on the Bell\u2013LaPadula model, testing both practical exploitation and theoretical MAC concepts."
+}

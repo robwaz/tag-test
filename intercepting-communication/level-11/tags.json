@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "TCP",
+        "handshake"
+    ],
+    "prerequisites": [
+        "TCP",
+        "Scapy"
+    ],
+    "summary": "This challenge requires participants to manually perform a TCP handshake by crafting packets with specific source port, destination port, and sequence values to interact with a remote host at 10.0.0.2. Successfully completing the handshake (SYN, SYN+ACK, ACK) triggers the flag disclosure."
+}

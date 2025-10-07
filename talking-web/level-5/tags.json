@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "HTTP",
+        "netcat",
+        "host-header"
+    ],
+    "prerequisites": [
+        "HTTP",
+        "netcat"
+    ],
+    "summary": "This challenge requires participants to manually craft an HTTP request using the netcat command. The request must include a custom Host header set to a specific, randomly generated value. The server validates both the header and that the request comes from netcat, rewarding proper command-line and HTTP protocol skills with the flag."
+}

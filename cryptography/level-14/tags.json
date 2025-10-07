@@ -1,0 +1,15 @@
+{
+    "tags": [
+        "TLS",
+        "Diffie-Hellman",
+        "AES",
+        "RSA",
+        "Certificates"
+    ],
+    "prerequisites": [
+        "Diffie-Hellman",
+        "RSA",
+        "AES"
+    ],
+    "summary": "This challenge simulates a simplified TLS handshake where the server completes a Diffie-Hellman exchange to derive an AES key and then uses RSA-based signatures to validate and issue certificates over an encrypted channel."
+}

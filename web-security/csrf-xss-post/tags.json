@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "csrf",
+        "xss"
+    ],
+    "prerequisites": [
+        "JavaScript",
+        "Same-origin"
+    ],
+    "summary": "The challenge forces you to bypass HttpOnly cookie restrictions by leveraging a CSRF-to-XSS vulnerability in a Flask web application. Once JavaScript is executed in an authenticated session, you can use fetch() under the same-origin policy to retrieve the flag."
+}

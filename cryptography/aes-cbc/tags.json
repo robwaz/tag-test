@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "AES",
+        "CBC"
+    ],
+    "prerequisites": [
+        "cryptography",
+        "python"
+    ],
+    "summary": "The challenge encrypts a flag using AES in CBC mode by prepending a random IV to the ciphertext, and solvers must separate the IV and correctly handle padding to recover the plaintext."
+}

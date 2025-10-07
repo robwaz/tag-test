@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "auth bypass",
+        "cookie-tampering"
+    ],
+    "prerequisites": [
+        "HTTP",
+        "cookies"
+    ],
+    "summary": "This challenge exploits a flaw in session management by trusting client-controlled cookie values. By modifying the 'session_user' cookie to 'admin', an attacker can bypass authentication to retrieve the flag."
+}

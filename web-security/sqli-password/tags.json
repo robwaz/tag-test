@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "SQL injection",
+        "mid-query"
+    ],
+    "prerequisites": [
+        "SQL",
+        "payload"
+    ],
+    "summary": "This challenge forces you to exploit an SQL injection vulnerability where your input is embedded mid-query, so the crafted payload must preserve valid SQL syntax despite trailing query code. Success depends on understanding SQL query structure and precise payload construction to bypass authentication and retrieve the flag."
+}

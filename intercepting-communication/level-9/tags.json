@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "raw sockets",
+        "packet crafting"
+    ],
+    "prerequisites": [
+        "scapy",
+        "networking"
+    ],
+    "summary": "The challenge requires manually crafting and sending an IP packet with a custom proto field (0xFF) to the target host (10.0.0.2) to trigger flag output. It focuses on raw socket communication and packet-level manipulation using tools like Scapy."
+}

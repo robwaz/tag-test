@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "UDP",
+        "spoofing"
+    ],
+    "prerequisites": [
+        "networking",
+        "sockets"
+    ],
+    "summary": "This challenge exploits UDP's stateless nature by allowing an attacker to spoof source details, confusing session handling and triggering flag disclosure."
+}

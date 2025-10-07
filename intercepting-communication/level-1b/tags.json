@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "netcat",
+        "EOF"
+    ],
+    "prerequisites": [
+        "netcat",
+        "TCP"
+    ],
+    "summary": "This challenge requires using netcat to properly shutdown a TCP connection by closing standard input (signaling EOF) so that the server sends back the flag. The solver must consult the netcat man page to discover the correct option (such as -q) that ensures the connection is closed after data transmission."
+}

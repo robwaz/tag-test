@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "Ethernet",
+        "PacketInjection"
+    ],
+    "prerequisites": [
+        "Networking",
+        "PacketCrafting"
+    ],
+    "summary": "This challenge requires manually crafting a raw Ethernet frame with a custom Ether type (0xFFFF) and sending it to the remote host (10.0.0.2) to trigger a flag. It tests low-level network packet injection skills and an understanding of Ethernet protocols."
+}

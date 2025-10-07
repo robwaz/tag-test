@@ -1,0 +1,17 @@
+{
+    "tags": [
+        "binary exploitation",
+        "reverse engineering",
+        "shellcoding",
+        "cimg",
+        "framebuffer"
+    ],
+    "prerequisites": [
+        "x86-64 assembly",
+        "gdb",
+        "objdump",
+        "cimg format"
+    ],
+    "summary": "Craft a CIMG image file to execute shellcode that takes a screenshot of the program's framebuffer, revealing the flag.",
+    "summary1": "This challenge requires crafting a CIMG image file that contains shellcode. The program will execute the shellcode from the image file. The shellcode needs to be designed to take a screenshot of the program's framebuffer, which displays the flag, and then write the screenshot to a file."
+}

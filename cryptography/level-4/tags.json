@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "AES",
+        "ECB",
+        "padding"
+    ],
+    "prerequisites": [
+        "Python",
+        "PyCryptoDome"
+    ],
+    "summary": "The challenge requires decrypting a flag using AES in ECB mode with proper padding. Solvers must use Python and the PyCryptoDome library to perform the decryption with the provided key and ciphertext."
+}

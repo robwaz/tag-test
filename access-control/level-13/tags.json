@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "MAC",
+        "BellLaPadula"
+    ],
+    "prerequisites": [
+        "Unix",
+        "BellLaPadula"
+    ],
+    "summary": "This challenge tests your understanding of Mandatory Access Control by presenting an interactive quiz on the Bell\u2010LaPadula model without category restrictions. It simulates access control scenarios in a Unix environment where proper evaluation of security levels is key to obtaining the flag."
+}

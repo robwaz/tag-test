@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "RSA",
+        "factoring"
+    ],
+    "prerequisites": [
+        "RSA",
+        "modular arithmetic"
+    ],
+    "summary": "The challenge provides the RSA prime factors and public exponent, allowing you to compute the private key (via modular inverses) and decrypt the encrypted flag. It tests fundamental RSA decryption and number theory skills."
+}

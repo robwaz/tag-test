@@ -1,0 +1,13 @@
+{
+    "tags": [
+        "sandboxing",
+        "syscalls",
+        "strace",
+        "networking"
+    ],
+    "prerequisites": [
+        "assembly",
+        "syscalls"
+    ],
+    "summary": "This challenge requires participants to write an assembly program that implements a minimal web server. The program must create a socket, bind, and listen, while its behavior is validated via strace logs in a sandboxed Linux namespace environment. The expected system call pattern is enforced, ensuring that the assembly code properly handles network connections."
+}

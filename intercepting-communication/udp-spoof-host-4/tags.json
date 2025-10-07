@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "UDP",
+        "Spoofing"
+    ],
+    "prerequisites": [
+        "Scapy",
+        "Networking"
+    ],
+    "summary": "This challenge requires crafting a forged UDP packet using scapy to impersonate the legitimate server, tricking the client into sending the flag."
+}

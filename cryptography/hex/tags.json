@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "hexadecimal",
+        "XOR"
+    ],
+    "prerequisites": [
+        "hex",
+        "XOR"
+    ],
+    "summary": "The challenge requires reversing a hexadecimal XOR operation over multiple rounds by computing the original secret from the provided key and encrypted value. It tests the solver's understanding of hex representations and bitwise XOR logic."
+}

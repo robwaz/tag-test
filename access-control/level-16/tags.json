@@ -1,0 +1,13 @@
+{
+    "tags": [
+        "MAC",
+        "BellLaPadula",
+        "Permissions"
+    ],
+    "prerequisites": [
+        "Linux",
+        "Bash",
+        "Pwntools"
+    ],
+    "summary": "This challenge combines practical UNIX file ownership and permission manipulation (including setuid bits) with interactive questions on the Bell-LaPadula mandatory access control model to retrieve the flag."
+}

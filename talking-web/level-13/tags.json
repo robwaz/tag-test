@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "HTTP",
+        "curl"
+    ],
+    "prerequisites": [
+        "curl",
+        "HTTP"
+    ],
+    "summary": "This challenge requires participants to send an HTTP GET request using curl with a specific query parameter 'a' set to a precise 32-character hexadecimal value seeded from the flag. The server also verifies that the request originates from the curl client, ensuring the correct execution environment is used to retrieve the flag."
+}

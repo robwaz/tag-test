@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "HTTP",
+        "stateful"
+    ],
+    "prerequisites": [
+        "Python",
+        "sessions"
+    ],
+    "summary": "This challenge requires using Python to perform stateful HTTP interactions. By maintaining session cookies and following redirects, the participant must make multiple requests until the session counter reaches a required threshold to reveal the flag."
+}

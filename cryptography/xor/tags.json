@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "xor",
+        "cryptography"
+    ],
+    "prerequisites": [
+        "python",
+        "bitwise"
+    ],
+    "summary": "This challenge asks solvers to exploit the self-inverting property of XOR by applying it in Python to decrypt a secret number using a provided key."
+}

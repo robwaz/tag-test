@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "OTP",
+        "XOR"
+    ],
+    "prerequisites": [
+        "Cryptography",
+        "XOR"
+    ],
+    "summary": "This challenge provides a one-time pad key and a ciphertext, where the flag is encrypted by XORing the plaintext with the key. The goal is to reverse the XOR operation to recover the original flag."
+}

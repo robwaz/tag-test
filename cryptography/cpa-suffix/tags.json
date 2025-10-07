@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "ECB",
+        "suffix"
+    ],
+    "prerequisites": [
+        "AES",
+        "oracle"
+    ],
+    "summary": "This challenge involves exploiting ECB\u2019s deterministic block encryption by constructing a codebook from chosen plaintexts to iteratively recover the secret flag\u2019s tail. It is a twist on the classic byte-at-a-time decryption attack where only the flag's tail end is accessible for encryption queries."
+}

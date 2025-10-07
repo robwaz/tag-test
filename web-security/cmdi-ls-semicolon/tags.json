@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "command injection",
+        "subprocess"
+    ],
+    "prerequisites": [
+        "python",
+        "linux"
+    ],
+    "summary": "This challenge demonstrates a command injection vulnerability where unsanitized user input is interpolated into shell commands via Python's subprocess module across multiple Flask endpoints. An attacker can exploit this flaw by injecting shell metacharacters to execute unintended commands and leak sensitive information."
+}

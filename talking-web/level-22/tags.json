@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "HTTP",
+        "form"
+    ],
+    "prerequisites": [
+        "curl",
+        "HTTP"
+    ],
+    "summary": "This challenge requires the use of curl to send an HTTP POST request with multiple form fields. The server validates two form parameters\u2014'a' and 'b'\u2014against specific, randomized values, including special characters in 'b'. Participants must correctly format the form data using curl to obtain the flag."
+}

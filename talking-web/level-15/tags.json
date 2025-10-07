@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "HTTP",
+        "Python",
+        "GET"
+    ],
+    "prerequisites": [
+        "HTTP",
+        "Python"
+    ],
+    "summary": "The challenge requires you to craft an HTTP GET request to a Flask server on 127.0.0.1:80 that includes a specific query parameter 'a' with a random value. In addition, the server verifies that the request is made using a Python client by checking the process details. Successful validation returns the flag."
+}

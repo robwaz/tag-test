@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "form",
+        "curl"
+    ],
+    "prerequisites": [
+        "HTTP",
+        "curl"
+    ],
+    "summary": "This challenge requires crafting an HTTP POST request using curl that includes form data. The server expects a specific form parameter 'a' with a random value and enforces that the request originates from the curl client by validating the client process's properties. Correctly formatting the request and using curl will reveal the flag."
+}

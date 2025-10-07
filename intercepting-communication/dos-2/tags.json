@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "DoS",
+        "forking"
+    ],
+    "prerequisites": [
+        "iptables",
+        "networking"
+    ],
+    "summary": "This challenge simulates a network where a client persistently connects to a forking TCP server, and by disrupting or blocking the service (e.g. via firewall rules) you force a connection timeout that prints the flag."
+}

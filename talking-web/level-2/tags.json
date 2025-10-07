@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "HTTP",
+        "netcat"
+    ],
+    "prerequisites": [
+        "HTTP",
+        "netcat"
+    ],
+    "summary": "The challenge requires making an HTTP request to a local Flask server using the nc command. The server verifies that the request comes from the netcat binary (by checking process ownership and mount options) and returns the flag if the request is correctly crafted."
+}

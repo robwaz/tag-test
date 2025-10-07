@@ -1,0 +1,13 @@
+{
+    "tags": [
+        "AES",
+        "ECB",
+        "Prefix Attack"
+    ],
+    "prerequisites": [
+        "AES",
+        "ECB",
+        "Padding"
+    ],
+    "summary": "This challenge involves attacking an AES ECB encryption oracle that prepends attacker-controlled data to a secret flag. By carefully adjusting the input length to shift block boundaries, contestants can isolate and recover portions of the flag block-by-block."
+}

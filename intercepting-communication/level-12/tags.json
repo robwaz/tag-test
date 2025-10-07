@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "ARP",
+        "Packet Crafting"
+    ],
+    "prerequisites": [
+        "ARP",
+        "Scapy"
+    ],
+    "summary": "This challenge requires manually crafting and sending a custom ARP is-at packet to bind IP 10.0.0.42 to MAC 42:42:42:42:42:42, which triggers the flag disclosure on the remote host. It tests the participant\u2019s understanding of ARP protocol mechanics and raw packet injection techniques."
+}

@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "command-injection",
+        "shell-quoting"
+    ],
+    "prerequisites": [
+        "shell",
+        "unix"
+    ],
+    "summary": "This challenge exploits a command injection flaw in a Flask web service where user input is interpolated within single quotes in a shell command. Solvers must craft a payload that correctly balances quotes to bypass the quoting mechanism and inject arbitrary commands."
+}

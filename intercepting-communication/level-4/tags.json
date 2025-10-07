@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "nmap",
+        "scanning"
+    ],
+    "prerequisites": [
+        "nmap",
+        "subnetting"
+    ],
+    "summary": "The challenge requires the contestant to efficiently scan a /16 network to locate a randomly assigned target host serving a flag on port 31337. It emphasizes using nmap with performance optimizations to perform network enumeration under constrained conditions."
+}
