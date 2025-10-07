@@ -5,6 +5,3 @@ tags:
 prerequisites:
 - JavaScript
 - URL-Encoding
-summary: This challenge requires chaining a CSRF attack with a reflected XSS vulnerability
-  to leak admin cookies. Careful crafting of multi-level JavaScript and proper URL
-  encoding allow an attacker to hijack the admin session and retrieve the flag.

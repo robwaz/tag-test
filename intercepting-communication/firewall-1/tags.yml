@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - iptables
 - Linux
-summary: The challenge requires players to block incoming TCP connections on port
-  31337 to host 10.0.0.1, which causes a watchdog timer to expire and reveal the flag.
-  Solvers must use firewall techniques to filter out the client traffic.

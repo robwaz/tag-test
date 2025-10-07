@@ -6,7 +6,3 @@ prerequisites:
 - HTTP
 - netcat
 - JSON
-summary: This challenge requires sending a crafted HTTP POST request using netcat.
-  The request must include a complex JSON payload with nested values and specific
-  headers (such as application/json) to pass custom validation. The server checks
-  various parts of the HTTP request, ensuring precise formatting and client verification.

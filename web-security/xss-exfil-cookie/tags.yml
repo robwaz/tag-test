@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - XSS
 - Netcat
-summary: This challenge requires exploiting an XSS vulnerability to steal a user's
-  authentication cookie and use it to impersonate the admin account. The exfiltrated
-  cookie is sent over HTTP to an attacker-controlled server set up with tools like
-  netcat.

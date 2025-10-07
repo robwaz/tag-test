@@ -6,8 +6,6 @@ prerequisites:
 - c
 - sockets
 - http
-summary: The server is vulnerable to path traversal. By crafting a GET request with
-  `../` in the path, it's possible to access and read the contents of `/flag`.
 summary1: The web server is vulnerable to a classic path traversal attack. By crafting
   a GET request with `GET ../../../../../../../../flag HTTP/1.0`, an attacker can
   navigate up the directory tree from the web root and access the `/flag` file, which

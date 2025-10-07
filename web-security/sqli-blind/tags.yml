@@ -4,8 +4,3 @@ tags:
 prerequisites:
 - SQL
 - boolean
-summary: This challenge involves exploiting a blind SQL injection vulnerability in
-  a Flask web application using SQLite, where an attacker can extract the flag bit-by-bit
-  by interpreting binary responses from crafted boolean queries. It requires bypassing
-  authentication by leveraging the conditional behavior of the database query without
-  direct data feedback.

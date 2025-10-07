@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - python
 - HTTP
-summary: This challenge requires using Python to handle a cookie-based HTTP workflow.
-  The server sends a cookie via a redirect and expects it to be included in a subsequent
-  request to reveal the flag. It emphasizes basic HTTP cookie management and redirection
-  using the python-requests library.

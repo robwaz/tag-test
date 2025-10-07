@@ -9,6 +9,3 @@ prerequisites:
 - pwntools
 - gdb
 - advanced exploitation techniques
-summary: The final and most difficult secure chat challenge, likely requiring a full
-  chain exploit that combines multiple vulnerabilities. The binary may also be obfuscated,
-  adding an extra layer of difficulty to the reverse engineering process.

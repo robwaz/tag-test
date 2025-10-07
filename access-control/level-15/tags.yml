@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - Unix
 - Permissions
-summary: "This challenge requires participants to correctly answer an interactive\
-  \ question based on the category\u2010based Bell\u2013LaPadula model of Mandatory\
-  \ Access Control within a timed session, ultimately granting the flag upon success."

@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - networking
 - iptables
-summary: The challenge features an iptables rule that drops outbound TCP packets on
-  port 31337, preventing a direct connection from the user host to the flag server.
-  Solvers must bypass the firewall restrictions to intercept the flag transmission.

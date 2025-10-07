@@ -4,8 +4,3 @@ tags:
 prerequisites:
 - unix
 - permissions
-summary: This challenge requires exploiting UNIX file and directory permission mechanics
-  in a multi-user environment by switching between accounts to access a flag placed
-  in a temporary directory with specific ownership and mode settings. Solvers must
-  understand and maneuver through permission and group ownership nuances to retrieve
-  the flag.

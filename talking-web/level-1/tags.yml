@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - curl
 - HTTP
-summary: This challenge runs a Flask server that returns a flag when a correctly formatted
-  HTTP request is made. The request must be sent using the curl client; the server
-  verifies the client process details, such as ownership and mount properties, to
-  ensure the correct tool is used.

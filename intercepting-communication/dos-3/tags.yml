@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - Networking
 - Python
-summary: The challenge centers on disrupting a forking TCP server so that its client
-  experiences connection timeouts, thereby revealing a flag. Participants must leverage
-  Python networking and process forking knowledge to create a denial-of-service condition.

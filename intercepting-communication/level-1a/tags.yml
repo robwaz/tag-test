@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - netcat
 - command-line
-summary: The challenge requires using netcat to connect to a remote TCP server and
-  sending a newline-terminated 'Hello, World!' message to trigger the flag, emphasizing
-  the impact of terminal input buffering.

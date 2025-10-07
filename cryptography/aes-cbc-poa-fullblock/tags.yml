@@ -4,8 +4,3 @@ tags:
 prerequisites:
 - AES
 - PKCS7
-summary: This challenge exploits a padding oracle vulnerability in AES-CBC encryption
-  when a full block of plaintext leads to an extra block of predictable PKCS7 padding.
-  By tampering with the ciphertext (specifically the block preceding the padding block),
-  attackers can recover and manipulate the penultimate block to eventually forge the
-  password and redeem the flag.

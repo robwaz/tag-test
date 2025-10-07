@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - Python
 - Shell
-summary: This challenge involves exploiting a shell command injection vulnerability
-  in a Flask-based timezone service that unsafely embeds user input into a shell command.
-  Solvers must manipulate the timezone parameter to inject and execute arbitrary commands.

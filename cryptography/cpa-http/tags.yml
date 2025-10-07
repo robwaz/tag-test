@@ -5,7 +5,3 @@ tags:
 prerequisites:
 - SQL Injection
 - Base64
-summary: "This challenge mixes data encoding with cryptographic and database vulnerabilities\
-  \ by outputting AES-encrypted, base64\u2010encoded results from an unsanitized SQL\
-  \ query. Solvers must exploit SQL injection and handle base64 encoding to extract\
-  \ the secret flag stored in a temporary SQLite database."

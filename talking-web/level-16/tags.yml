@@ -4,8 +4,3 @@ tags:
 prerequisites:
 - curl
 - HTTP
-summary: "This challenge requires constructing an HTTP GET request with multiple query\
-  \ parameters using curl. The server validates two parameters\u2014one simple and\
-  \ one containing spaces and special characters\u2014so proper URL quoting/escaping\
-  \ is essential. Additionally, the request must be made using the curl client as\
-  \ enforced by server-side checks."

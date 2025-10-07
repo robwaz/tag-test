@@ -5,7 +5,3 @@ tags:
 prerequisites:
 - HTTP
 - Netcat
-summary: This challenge requires you to manually craft a raw HTTP POST request using
-  netcat to submit multi-field form data. The server expects two specific form fields,
-  'a' and 'b', with exact randomized values (including special characters) to validate
-  the request and return the flag.

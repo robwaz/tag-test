@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - bash
 - networking
-summary: This challenge requires the participant to scan a /24 subnet using tools
-  like ping and a shell for loop to locate a live host on port 31337. Once found,
-  connecting to the host returns a flag, demonstrating basic network reconnaissance
-  and scripting skills.

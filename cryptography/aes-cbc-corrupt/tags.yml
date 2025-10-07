@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - AES
 - CBC
-summary: The challenge demonstrates a CBC bit-flipping attack where an attacker manipulates
-  the IV or previous ciphertext block to change a benign command into one that triggers
-  a flag disclosure.

@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - linux
 - networking
-summary: In this challenge, participants must reconfigure a network interface to intercept
-  a flag being sent from a simulated client host to an undefined IP and port. The
-  task involves manipulating network routing within a containerized, setuid Python
-  environment.

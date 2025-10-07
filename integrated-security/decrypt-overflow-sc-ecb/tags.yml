@@ -13,9 +13,6 @@ prerequisites:
 - gdb
 - openssl
 - objdump
-summary: Inject and execute shellcode by exploiting a buffer overflow, using a crafted
-  AES-ECB ciphertext to overwrite the return address with the shellcode's address
-  on the stack, requiring manual discovery of the overflow offset
 summary1: This challenge combines cryptography and binary exploitation. The goal is
   to inject and execute shellcode by exploiting a buffer overflow vulnerability. The
   exploit involves crafting a ciphertext that, when decrypted by the program using

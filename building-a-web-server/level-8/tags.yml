@@ -5,8 +5,3 @@ tags:
 prerequisites:
 - assembly
 - linux
-summary: This challenge requires participants to build a web server in assembly that
-  handles multiple HTTP GET and POST requests in a constrained Linux sandbox. The
-  solution must correctly perform low-level socket operations, process forking, and
-  namespace isolation while its behavior is verified through strace logging and syscall
-  injection.

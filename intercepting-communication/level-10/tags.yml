@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - Scapy
 - TCP
-summary: The challenge requires crafting and sending a TCP packet with specific header
-  values to a remote host that is monitoring for that exact packet, triggering the
-  flag disclosure.

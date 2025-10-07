@@ -5,5 +5,3 @@ tags:
 prerequisites:
 - reverse engineering
 - pwntools
-summary: This challenge requires exploiting a vulnerability in a secure chat application,
-  likely involving a combination of binary exploitation and cryptographic weaknesses.

@@ -5,7 +5,3 @@ tags:
 prerequisites:
 - Python
 - HTTP
-summary: This challenge requires you to make an HTTP request using Python that correctly
-  handles a redirect. On your first request the server responds with a redirect to
-  a randomly generated URL; following this redirect yields the flag. It is an intentionally
-  easy level meant to familiarize you with redirect handling using python-requests.

@@ -5,8 +5,3 @@ tags:
 prerequisites:
 - assembly
 - syscalls
-summary: This challenge tasks participants with writing an assembly program that creates
-  a TCP socket. The solution is run in a sandboxed environment that leverages Linux
-  namespaces and strace to verify the proper system call sequence (socket, bind, listen,
-  accept, etc.). It is an early stage in a series aimed at gradually building a full
-  web server.

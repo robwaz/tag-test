@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - aes
 - padding
-summary: This challenge requires exploiting a padding oracle vulnerability in AES-CBC
-  mode by modifying preceding ciphertext blocks to influence the decryption of subsequent
-  blocks and recover the encrypted flag. It builds on prior IV tampering challenges
-  while handling multi-block data.

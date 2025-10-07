@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - networking
 - sockets
-summary: This challenge simulates a networked environment where a client transmits
-  a flag over a plaintext TCP connection to a server. Participants must intercept
-  the traffic between the hosts to capture the flag.

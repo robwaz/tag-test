@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - curl
 - HTTP
-summary: "This challenge requires you to follow an HTTP redirect to obtain the flag.\
-  \ The server sends a redirect response when a request is made to a non-matching\
-  \ URL, so using curl\u2019s redirection-following option (e.g., -L) allows you to\
-  \ automatically follow the redirect and retrieve the flag."

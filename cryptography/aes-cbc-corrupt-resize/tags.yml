@@ -5,7 +5,3 @@ tags:
 prerequisites:
 - AES
 - PKCS7
-summary: This challenge asks players to modify an AES-CBC ciphertext to change the
-  decrypted command, exploiting the malleability of CBC mode and carefully handling
-  PKCS#7 padding. The twist is that changing command lengths requires an understanding
-  of how padding is applied and can affect the overall structure of the plaintext.

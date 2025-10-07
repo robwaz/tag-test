@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - AES
 - pwntools
-summary: "The challenge leverages the vulnerabilities inherent in AES\u2019s ECB mode\
-  \ by allowing the attacker to perform a chosen plaintext attack and build a ciphertext-to-plaintext\
-  \ codebook. This mapping is then used to decrypt the flag, with automation via pwntools\
-  \ recommended to facilitate interactions."

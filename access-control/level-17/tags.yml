@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - Python
 - Pwntools
-summary: "This challenge requires participants to automate 20 timed Mandatory Access\
-  \ Control questions based on the Bell\u2013LaPadula model, answering yes/no queries\
-  \ in one second to retrieve the flag. It emphasizes scripting rapid responses using\
-  \ tools like pwntools to correctly apply access control rules."

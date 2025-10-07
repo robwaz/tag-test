@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - AES
 - PKCS7
-summary: The challenge exploits a padding oracle vulnerability in an AES-CBC service
-  where incorrect PKCS7 unpadding leaks information, enabling attackers to recover
-  a secret password and obtain the flag.

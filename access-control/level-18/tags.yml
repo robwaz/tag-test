@@ -4,6 +4,3 @@ tags:
 prerequisites:
 - Python
 - pwntools
-summary: "The challenge requires automating responses to 64 rapid-fire questions based\
-  \ on a category-driven Bell\u2010LaPadula model, forcing competitors to quickly\
-  \ apply precise Mandatory Access Control rules and UNIX permissions concepts."

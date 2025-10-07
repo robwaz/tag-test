@@ -4,9 +4,3 @@ tags:
 prerequisites:
 - netcat
 - HTTP
-summary: This challenge requires you to use the netcat command to craft an HTTP GET
-  request that meets strict validation rules. The server, built with Flask, expects
-  a specific query parameter 'a' with a predetermined value derived from a seeded
-  random process, and it checks that the client process is indeed nc. Knowledge of
-  HTTP request structure and command-line networking is essential to retrieve the
-  flag.

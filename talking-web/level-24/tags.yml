@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - Python
 - HTTP
-summary: This challenge requires you to craft an HTTP POST request in Python that
-  includes multiple form fields. The Flask server validates two specific form parameters
-  against pre-generated values and enforces usage of the Python client. Precision
-  in constructing the form data as instructed is key to retrieving the flag.

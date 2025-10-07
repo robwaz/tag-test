@@ -4,8 +4,3 @@ tags:
 prerequisites:
 - HTTP
 - netcat
-summary: This challenge requires interacting with a Flask web server that uses a cookie-based
-  mechanism to reveal a flag. The server first sets a cookie and then expects the
-  client to include it in a follow-up request. Additionally, participants must use
-  the nc command to craft the HTTP request, testing their knowledge of HTTP protocol
-  and manual request crafting.

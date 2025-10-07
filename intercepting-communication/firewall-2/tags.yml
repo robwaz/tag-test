@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - iptables
 - Linux
-summary: This challenge requires configuring firewall rules to permit traffic from
-  10.0.0.2 while blocking traffic from 10.0.0.3 on port 31337. The flag is revealed
-  when the correct IP-based filtering is in place to satisfy the connection timing
-  conditions.

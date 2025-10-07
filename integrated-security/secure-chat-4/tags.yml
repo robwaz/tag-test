@@ -8,6 +8,3 @@ prerequisites:
 - pwntools
 - gdb
 - race condition exploits
-summary: A highly advanced secure chat challenge, likely involving a combination of
-  vulnerabilities, possibly including a race condition, and requiring a deep understanding
-  of the application's logic to exploit.

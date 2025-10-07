@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - html
 - xss
-summary: This challenge involves crafting an injection payload that escapes from a
-  textarea context to execute JavaScript and trigger an alert. The victim browser,
-  controlled via Selenium, visits the injected URL and returns the flag upon successful
-  alert execution.

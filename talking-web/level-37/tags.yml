@@ -3,8 +3,3 @@ tags:
 - curl
 prerequisites:
 - curl
-summary: "This challenge requires interaction with a Flask web server that uses session\
-  \ state and HTTP redirection. Participants must perform a series of stateful requests\u2014\
-  maintaining cookies across redirects\u2014using curl in order to reach the final\
-  \ state and reveal the flag. The server also verifies that the requests are issued\
-  \ using curl to ensure correct client behavior."

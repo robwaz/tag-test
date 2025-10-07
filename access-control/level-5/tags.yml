@@ -5,7 +5,3 @@ tags:
 prerequisites:
 - unix
 - permissions
-summary: "This challenge explores the effects of setting the SETUID bit on the cp\
-  \ command, demonstrating how file copying interacts with UNIX permission mechanics.\
-  \ Participants must leverage their knowledge of file permissions and cp\u2019s behavior\
-  \ (using man page details) to bypass standard access control restrictions."

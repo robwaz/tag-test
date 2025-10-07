@@ -5,7 +5,3 @@ tags:
 prerequisites:
 - AES
 - padding
-summary: This challenge presents an AES ECB encryption oracle that correctly implements
-  PKCS7 padding, including adding a full-padding (decoy) block when the plaintext
-  length is a multiple of 16. Participants must craft chosen plaintexts to bypass
-  this padding quirk and recover the secret flag appended to their input.

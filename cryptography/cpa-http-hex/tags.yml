@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - SQL
 - Crypto
-summary: This challenge exploits an SQL injection vulnerability in a Flask app that
-  uses SQLite to store a flag and returns its result encrypted with AES in ECB mode.
-  By crafting a custom SQL query (e.g., using SELECT 'chosen_text'), the attacker
-  can manipulate the output to recover the flag.

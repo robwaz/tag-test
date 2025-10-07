@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - curl
 - HTTP
-summary: This challenge requires participants to retrieve the flag by crafting an
-  HTTP POST request that includes a JSON payload. The request must set the Content-Type
-  header to 'application/json' and include the key 'a' with a server-specified value.
-  Additionally, the server verifies that the request is made using the curl client.

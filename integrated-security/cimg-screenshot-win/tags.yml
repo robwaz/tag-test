@@ -9,9 +9,6 @@ prerequisites:
 - gdb
 - objdump
 - cimg format
-summary: Craft a CIMG image file to trigger a buffer overflow and overwrite the return
-  address to call a win function, which takes a screenshot of the program's framebuffer
-  to reveal the flag.
 summary1: This challenge involves crafting a malicious CIMG image file to exploit
   a buffer overflow vulnerability. The goal is to overwrite the return address on
   the stack to redirect execution to a hidden `win` function. When called, this function

@@ -4,7 +4,3 @@ tags:
 prerequisites:
 - HTTP
 - curl
-summary: This challenge requires you to send an HTTP request with a custom Host header.
-  The header must match a specific 32-character hexadecimal string generated using
-  a seed derived from the flag. Additionally, you must use the curl command, as the
-  server validates that the request comes from the correct client.

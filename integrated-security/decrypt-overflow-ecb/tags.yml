@@ -12,9 +12,6 @@ prerequisites:
 - gdb
 - openssl
 - objdump
-summary: Exploit a buffer overflow vulnerability by crafting a ciphertext that, when
-  decrypted via AES-ECB, overwrites the stack's return address with the address of
-  a win function.
 summary1: This challenge combines cryptography and binary exploitation. The goal is
   to exploit a buffer overflow vulnerability by crafting a ciphertext that, when decrypted
   by the program using AES-ECB, overwrites the return address on the stack with the
