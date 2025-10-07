@@ -1,0 +1,12 @@
+tags:
+- MAC
+- BellLaPadula
+- pwntools
+prerequisites:
+- pwntools
+- Python
+summary: "This challenge forces you to automate responses to 128 rapid-fire questions\
+  \ based on a randomized, category-driven Bell\u2013LaPadula Mandatory Access Control\
+  \ model within a one-second timeout. Solvers must script interactions (e.g. using\
+  \ pwntools) and apply their understanding of Unix permissions and MAC policies to\
+  \ capture the flag."

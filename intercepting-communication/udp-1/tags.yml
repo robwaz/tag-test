@@ -1,0 +1,9 @@
+tags:
+- UDP
+- sockets
+prerequisites:
+- Python
+- networking
+summary: This challenge requires establishing a UDP connection to a server that listens
+  for a specific message and returns a flag, testing basic UDP socket programming
+  and network communication skills.

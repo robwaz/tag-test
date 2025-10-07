@@ -1,0 +1,9 @@
+tags:
+- RSA
+- challenge-response
+prerequisites:
+- RSA
+- modular arithmetic
+summary: This challenge requires you to provide a custom RSA public key and then compute
+  the correct modular root of a random challenge using that key. Successfully doing
+  so lets you retrieve a flag encrypted with your provided public key.

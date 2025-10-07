@@ -1,0 +1,11 @@
+tags:
+- HTTP
+- netcat
+prerequisites:
+- HTTP
+- netcat
+summary: This challenge requires participants to use netcat (nc) to craft a raw HTTP
+  GET request that includes multiple query parameters. In the 'arg_multi' variant,
+  the request must supply parameters 'a' and 'b' with exact values, including characters
+  that must be properly encoded, while the server additionally checks that the correct
+  client binary (nc) is being used.

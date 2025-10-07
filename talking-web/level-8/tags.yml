@@ -1,0 +1,10 @@
+tags:
+- HTTP
+- netcat
+prerequisites:
+- HTTP
+- netcat
+summary: "This challenge requires crafting a precise HTTP request using the netcat\
+  \ utility. The server expects the request\u2019s path to match a specific randomized\
+  \ value and verifies that the request is made using the correct nc binary with proper\
+  \ privileges to return the flag."

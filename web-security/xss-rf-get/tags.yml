@@ -1,0 +1,10 @@
+tags:
+- XSS
+- fetch
+prerequisites:
+- JavaScript
+- HTTP
+summary: This challenge requires exploiting an XSS vulnerability to inject JavaScript
+  that uses the fetch() API to make an admin-level HTTP GET request, triggering the
+  publication of a hidden draft post containing the flag. Successful exploitation
+  demands debugging both the injection mechanism and the resulting network request.

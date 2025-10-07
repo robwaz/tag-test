@@ -1,0 +1,10 @@
+tags:
+- command injection
+- blind injection
+prerequisites:
+- Linux
+- DNS
+summary: "This challenge features a blind command injection vulnerability in a Flask\
+  \ web service that unsafely incorporates user input into a shell command (touch).\
+  \ The solver must exploit the flaw and use out\u2011of\u2011band techniques to retrieve\
+  \ the flag without direct command output."

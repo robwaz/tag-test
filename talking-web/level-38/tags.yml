@@ -1,0 +1,13 @@
+tags:
+- HTTP
+- Session
+- Netcat
+prerequisites:
+- HTTP
+- Netcat
+- Cookies
+summary: "This challenge requires making a series of stateful HTTP requests to a Flask\
+  \ server. Using the nc command, the participant must manage session cookies and\
+  \ correctly follow redirects, as the server tracks state over four requests before\
+  \ revealing the flag. Additionally, the server validates the client\u2019s identity,\
+  \ enforcing the use of the correct tool."

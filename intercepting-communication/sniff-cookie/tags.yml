@@ -1,0 +1,10 @@
+tags:
+- sniffing
+- cookie theft
+prerequisites:
+- HTTP
+- Packet Capture
+summary: This challenge simulates an environment where an administrative login generates
+  a session cookie that is sent over plain HTTP, and the goal is to intercept (sniff)
+  the cookie and use it to retrieve the flag. It tests practical skills in network
+  traffic capture and session hijacking.

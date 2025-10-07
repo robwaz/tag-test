@@ -1,0 +1,11 @@
+tags:
+- json
+- http
+prerequisites:
+- python
+- http
+summary: This challenge requires participants to craft an HTTP POST request with a
+  complex, nested JSON payload. The payload must include specific key-value pairs
+  and list elements as dictated by the server, and the Content-Type header must be
+  set to 'application/json'. The request must be made using a Python client, and the
+  Flask server validates both the structure and values to return the flag.

@@ -1,0 +1,11 @@
+tags:
+- firewall
+- SUID
+prerequisites:
+- iptables
+- networking
+summary: "This challenge simulates a network environment where a SUID Python service\
+  \ runs a server on port 31337 and a client repeatedly attempts to connect; the flag\
+  \ is revealed when you block the client\u2019s connection. The objective is to deny\
+  \ service\u2014likely by adjusting firewall or network settings\u2014to interrupt\
+  \ the communication between 10.0.0.3 and 10.0.0.2."

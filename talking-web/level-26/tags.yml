@@ -1,0 +1,12 @@
+tags:
+- json
+- netcat
+prerequisites:
+- HTTP
+- netcat
+- json
+summary: This challenge requires participants to craft a precise HTTP POST request
+  containing a JSON payload with a specific key-value pair. The server validates the
+  Content-Type header and the JSON data before returning the flag. Additionally, the
+  request must be made using the netcat (nc) command as specified in the challenge
+  configuration.

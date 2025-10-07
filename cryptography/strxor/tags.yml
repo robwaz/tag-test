@@ -1,0 +1,9 @@
+tags:
+- XOR
+- pycryptodome
+prerequisites:
+- Python
+- XOR
+summary: "This challenge tasks participants with decrypting XOR\u2010encrypted ASCII\
+  \ strings using PyCryptoDome\u2019s strxor, emphasizing proper byte-string conversion\
+  \ and encoding awareness."

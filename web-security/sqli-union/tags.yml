@@ -1,0 +1,10 @@
+tags:
+- SQLi
+- Union
+prerequisites:
+- SQL
+- Injection
+summary: This challenge exploits an SQL injection vulnerability in a Flask web app
+  using SQLite, where query chaining via the UNION operator lets an attacker leak
+  sensitive data such as the flag. It requires crafting injection payloads to bypass
+  intended query logic and access unintended database records.

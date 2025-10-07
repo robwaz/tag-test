@@ -1,0 +1,9 @@
+tags:
+- SHA256
+- proof-of-work
+prerequisites:
+- SHA256
+- bruteforce
+summary: "This challenge requires finding response data that, when appended to a random\
+  \ challenge, produces a SHA256 hash beginning with two null bytes. It tests a candidate\u2019\
+  s ability to implement a simple brute-force proof-of-work using hash functions."

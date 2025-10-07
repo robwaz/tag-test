@@ -1,0 +1,9 @@
+tags:
+- netcat
+- socket
+prerequisites:
+- netcat
+- networking
+summary: The challenge requires connecting from a designated host (10.0.0.1) to a
+  remote Python socket server on 10.0.0.2:31337 using netcat. Once connected, the
+  server sends the flag, making it a basic network communication task.

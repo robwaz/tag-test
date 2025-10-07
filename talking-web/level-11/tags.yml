@@ -1,0 +1,11 @@
+tags:
+- URL-encoding
+- netcat
+prerequisites:
+- HTTP
+- netcat
+summary: This challenge requires crafting a manually crafted HTTP request with a URL
+  path that includes spaces which must be correctly URL-encoded. The request must
+  be sent using the netcat (nc) command to a Flask server that validates the path
+  against an expected format. Success in encoding and submitting the proper path returns
+  the flag.

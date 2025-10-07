@@ -1,0 +1,9 @@
+tags:
+- RSA
+- asymmetric
+prerequisites:
+- modular arithmetic
+- cryptography
+summary: This challenge involves decrypting an RSA-encrypted flag using the provided
+  public and private keys, demonstrating the principles of modular exponentiation
+  and key inversion in asymmetric cryptography.

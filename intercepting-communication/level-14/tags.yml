@@ -1,0 +1,10 @@
+tags:
+- mitm
+- sockets
+prerequisites:
+- networking
+- python
+summary: This challenge simulates a man-in-the-middle scenario where an attacker can
+  intercept and manipulate authenticated socket communications. By altering the secret
+  exchange and command flow between the client and server, the goal is to retrieve
+  the flag.

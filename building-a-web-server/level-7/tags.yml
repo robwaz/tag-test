@@ -1,0 +1,13 @@
+tags:
+- HTTP
+- strace
+- sandbox
+prerequisites:
+- assembly
+- Linux
+summary: This challenge requires building a minimal web server that correctly handles
+  HTTP GET requests to serve file contents. The solution must perform a precise sequence
+  of system calls (socket, bind, listen, accept, read, open, write) that are validated
+  via strace output. Additionally, the server is run inside a secure sandbox using
+  Linux namespaces with injected signals, making careful use of low-level operations
+  and system call behavior.

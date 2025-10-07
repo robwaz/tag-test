@@ -1,0 +1,10 @@
+tags:
+- Access Control
+- Unix Permissions
+- MAC
+prerequisites:
+- Unix
+- Permissions
+summary: "This challenge requires exploiting UNIX file ownership and permission mechanisms\u2014\
+  including setuid and group manipulation\u2014while also solving MAC (Bell\u2013\
+  LaPadula) based questions to retrieve a flag owned by another user."

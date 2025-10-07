@@ -1,0 +1,9 @@
+tags:
+- OTP Reuse
+- XOR
+prerequisites:
+- Python
+- XOR
+summary: This challenge exploits the vulnerability of a one-time pad when a fixed
+  key is reused, providing an encryption oracle for chosen plaintexts. Solvers must
+  leverage the algebraic properties of XOR to recover the key and decrypt the flag.

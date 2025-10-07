@@ -1,0 +1,13 @@
+tags:
+- HTTP
+- Strace
+- Syscalls
+- Sandbox
+prerequisites:
+- x86 Assembly
+- Linux
+summary: This challenge requires writing a minimal web server in assembly that statically
+  responds to HTTP requests. The implementation must correctly perform socket operations
+  (bind, listen, accept, read, write) and handle GET/POST interactions with file I/O.
+  It runs in a sandboxed environment using Linux namespaces and its system call behavior
+  is validated against expected strace output.

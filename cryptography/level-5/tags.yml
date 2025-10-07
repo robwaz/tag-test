@@ -1,0 +1,11 @@
+tags:
+- AES
+- ECB
+- codebook
+prerequisites:
+- AES
+- CPA
+summary: This challenge is a variant of the ECB byte-at-a-time decryption where you
+  must craft a prefix to precisely control block alignment in order to build a ciphertext
+  codebook. By exploiting the deterministic nature of AES in ECB mode with PKCS#7
+  padding, the attacker can recover the unknown flag appended to the input.

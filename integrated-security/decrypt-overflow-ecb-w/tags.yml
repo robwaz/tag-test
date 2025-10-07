@@ -1,0 +1,21 @@
+tags:
+- binary exploitation
+- cryptography
+- buffer overflow
+- aes
+- ecb
+- decryption oracle
+prerequisites:
+- c programming
+- x86-64 assembly
+- gdb
+- openssl
+summary: Exploit a buffer overflow vulnerability by crafting a ciphertext that, when
+  decrypted via AES-ECB, overwrites the stack's return address with the address of
+  a  win function.
+summary1: This challenge involves a buffer overflow vulnerability that can be exploited
+  by providing a crafted ciphertext. The program decrypts the ciphertext using AES-ECB
+  and the result is written to the stack, causing a buffer overflow. The goal is to
+  overwrite the return address with the address of a `win` function. The challenge
+  provides the necessary information to calculate the buffer overflow offset and the
+  address of the `win` function.

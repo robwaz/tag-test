@@ -1,0 +1,11 @@
+tags:
+- json
+- curl
+prerequisites:
+- curl
+- json
+summary: The challenge requires sending an HTTP POST request using curl with a complex
+  JSON body. The JSON payload must include a top-level key 'a' and a nested object
+  under key 'b' with specific values, including a list, that exactly match dynamically
+  generated values. Additionally, the server validates that the request is made using
+  the curl client.

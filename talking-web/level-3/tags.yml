@@ -1,0 +1,10 @@
+tags:
+- HTTP
+- Python
+prerequisites:
+- Python
+- HTTP
+summary: This challenge requires sending an HTTP request from a Python client to a
+  Flask server running on 127.0.0.1. The server validates that the client is executed
+  by Python (including checking ownership and mount options) before returning the
+  flag.

@@ -1,0 +1,10 @@
+tags:
+- MAC
+- BellLaPadula
+prerequisites:
+- Unix
+- BellLaPadula
+summary: "This challenge quizzes participants on the Bell\u2013LaPadula model by asking\
+  \ timed yes/no questions about read and write permissions based solely on security\
+  \ levels. It simulates a Mandatory Access Control scenario without category-based\
+  \ rules."

@@ -1,0 +1,12 @@
+tags:
+- Setuid
+- Permissions
+- BellLaPadula
+prerequisites:
+- Unix
+- Pwntools
+summary: "This challenge features multiple levels that require manipulating UNIX file\
+  \ permissions, user/group ownership, and setuid bits to access a flag, while also\
+  \ testing knowledge of Mandatory Access Control via Bell-LaPadula questions. It\
+  \ combines hands\u2010on exploitation of file system permissions with theory-based\
+  \ MAC challenges."

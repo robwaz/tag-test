@@ -1,0 +1,9 @@
+tags:
+- ascii
+- xor
+prerequisites:
+- ascii
+- bitwise
+summary: This challenge involves performing bitwise XOR on ASCII characters, where
+  solvers must manually compute the decrypted plaintext from provided encrypted characters
+  and keys to obtain the flag.

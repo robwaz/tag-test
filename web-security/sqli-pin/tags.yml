@@ -1,0 +1,10 @@
+tags:
+- SQL injection
+- auth bypass
+prerequisites:
+- SQL
+- web
+summary: This challenge involves exploiting a SQL injection vulnerability in a web
+  authentication system where a dynamically built query lets attackers bypass the
+  password check. By carefully injecting conditions into the SQL query, competitors
+  can force the application to log in as admin and retrieve the flag.

@@ -1,0 +1,10 @@
+tags:
+- http
+- python
+prerequisites:
+- python
+- http
+summary: The challenge requires crafting an HTTP request in Python with a specific
+  URL path that matches a server-generated random string. The Flask server verifies
+  the request's path and ensures that it is sent using a Python process. Satisfying
+  these conditions results in retrieving the flag.

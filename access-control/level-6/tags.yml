@@ -1,0 +1,10 @@
+tags:
+- file-permissions
+- group membership
+prerequisites:
+- unix
+- groups
+summary: "This challenge requires participants to bypass restrictive file permissions\
+  \ by dealing with a flag file owned by root and a dynamically created group. Solvers\
+  \ must use their knowledge of UNIX group management\u2014such as joining a group\
+  \ with a password\u2014to gain access to the flag."

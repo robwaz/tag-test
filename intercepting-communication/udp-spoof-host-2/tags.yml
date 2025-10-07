@@ -1,0 +1,9 @@
+tags:
+- UDP
+- spoofing
+prerequisites:
+- UDP
+- sniffing
+summary: "This challenge exploits UDP\u2019s minimal protocol features by enabling\
+  \ flag redirection through spoofed responses. Solvers must either set up a UDP listener\
+  \ or capture the crafted packets using a network sniffer to intercept the flag."

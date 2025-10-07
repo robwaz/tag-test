@@ -1,0 +1,10 @@
+tags:
+- padding oracle
+- aes-cbc
+prerequisites:
+- AES
+- PKCS7
+summary: This challenge exploits a padding oracle vulnerability in an AES-CBC implementation
+  to forge ciphertext that, when decrypted, produces attacker-controlled plaintext.
+  By carefully manipulating ciphertext blocks, participants must craft a valid command
+  to trigger flag disclosure.

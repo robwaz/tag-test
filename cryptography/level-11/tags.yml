@@ -1,0 +1,9 @@
+tags:
+- RSA
+- challenge-response
+prerequisites:
+- RSA
+- modular arithmetic
+summary: This challenge requires computing an RSA signature on a random challenge
+  using the provided public and private keys. Solving it involves performing modular
+  exponentiation and understanding RSA's challenge-response mechanics.

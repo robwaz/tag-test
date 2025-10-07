@@ -1,0 +1,12 @@
+tags:
+- HTTP
+- redirect
+- netcat
+prerequisites:
+- HTTP
+- netcat
+summary: "This challenge requires you to use netcat (nc) to interact with a web server\
+  \ that issues an HTTP redirect. You must manually follow the redirect \u2014 crafting\
+  \ raw HTTP requests without automated tools \u2014 to finally retrieve the flag.\
+  \ The server also enforces client validation to ensure that the connection is made\
+  \ using nc."

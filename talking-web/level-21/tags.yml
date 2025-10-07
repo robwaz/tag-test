@@ -1,0 +1,11 @@
+tags:
+- form
+- python
+prerequisites:
+- python
+- HTTP
+summary: This challenge runs a Flask web server that requires you to send an HTTP
+  POST request containing form data. In particular, you must include a form field
+  named 'a' with a specific value provided in the instructions. Additionally, the
+  server ensures the request is made using Python, making the correct client and form-data
+  handling essential to retrieve the flag.

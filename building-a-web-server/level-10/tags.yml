@@ -1,0 +1,12 @@
+tags:
+- HTTP
+- Sandbox
+- Strace
+prerequisites:
+- Assembly
+- Linux
+summary: This challenge requires participants to implement a web server in assembly
+  that handles HTTP POST requests by reading and updating file content. The provided
+  harness sets up a multi-process, sandboxed environment using Linux namespaces and
+  validates execution via strace to ensure correct syscall behavior. Solvers must
+  manage concurrent connections and adhere to strict syscall patterns to succeed.

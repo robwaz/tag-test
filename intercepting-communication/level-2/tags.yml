@@ -1,0 +1,10 @@
+tags:
+- netcat
+- socket
+prerequisites:
+- netcat
+- TCP
+summary: The challenge requires the participant to use netcat in listening mode to
+  capture a TCP connection from a remote client that sends the flag. By setting up
+  a listener on port 31337, the participant intercepts the bidirectional communication
+  initiated by the remote host.

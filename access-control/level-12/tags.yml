@@ -1,0 +1,9 @@
+tags:
+- Access Control
+- UNIX
+prerequisites:
+- Linux
+- Permissions
+summary: This challenge requires navigating complex UNIX file and directory permissions
+  set across multiple user accounts to access a hidden flag file. It tests knowledge
+  of ownership, group permissions, setuid, and user switching in a Unix environment.

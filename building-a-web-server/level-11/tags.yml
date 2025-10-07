@@ -1,0 +1,14 @@
+tags:
+- sandboxing
+- strace
+- multiprocessing
+- HTTP
+prerequisites:
+- assembly
+- linux
+- networking
+summary: This challenge requires building a multi-process web server that handles
+  concurrent HTTP GET and POST requests. The solution must adhere to a strict syscall
+  sequence as verified by strace and run inside a Linux namespace-based sandbox. Participants
+  are expected to implement low-level code (typically in assembly) that manages process
+  control and network I/O correctly.

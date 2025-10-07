@@ -1,0 +1,10 @@
+tags:
+- netcat
+- form-data
+prerequisites:
+- HTTP
+- netcat
+summary: This challenge is a web server running Flask that requires you to send a
+  custom HTTP POST request using nc. The request must include form data with a specific
+  parameter value and meet strict client validation checks, such as being executed
+  by the correct netcat binary, to retrieve the flag.

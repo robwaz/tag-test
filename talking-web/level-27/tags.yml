@@ -1,0 +1,12 @@
+tags:
+- json
+- python
+- HTTP
+prerequisites:
+- python
+- HTTP
+summary: This challenge requires contestants to send an HTTP POST request from a Python
+  client that includes a JSON payload. The Flask server checks that the Content-Type
+  is set to application/json and that the JSON body contains a specific key-value
+  pair matching a predetermined value. Additionally, the server validates that the
+  request originates from a Python process with proper system privileges.

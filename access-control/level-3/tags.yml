@@ -1,0 +1,10 @@
+tags:
+- AccessControl
+- UNIXPermissions
+prerequisites:
+- Unix
+- Permissions
+summary: This challenge focuses on bypassing strict UNIX file permission configurations,
+  where the flag file is set with 000 permissions despite being owned by the user.
+  Solvers must use their understanding of UNIX access control mechanics to circumvent
+  these restrictions and retrieve the flag.

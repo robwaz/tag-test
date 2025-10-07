@@ -1,0 +1,9 @@
+tags:
+- unix-permissions
+- group-membership
+prerequisites:
+- linux
+- permissions
+summary: This challenge involves exploiting UNIX file permission settings where the
+  flag is accessible only to a specific group. Players must identify and utilize the
+  correct group membership among multiple user accounts to retrieve the flag.

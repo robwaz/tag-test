@@ -1,0 +1,10 @@
+tags:
+- Access Control
+- Unix Permissions
+prerequisites:
+- Unix
+- Permissions
+summary: "In this challenge the flag\u2019s access is restricted by changing its owner\
+  \ to a newly created user and setting strict file permissions. Solvers must use\
+  \ their knowledge of Unix user management and file permissions (e.g. with su) to\
+  \ access the flag."

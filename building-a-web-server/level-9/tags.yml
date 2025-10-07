@@ -1,0 +1,12 @@
+tags:
+- Web Server
+- Strace
+- Sandbox
+prerequisites:
+- Assembly
+- Syscalls
+summary: This challenge requires participants to implement a web server in assembly
+  that handles multiple concurrent HTTP requests. The solution must adhere to a precise
+  sequence of system calls, as verified by recorded strace output. Additionally, the
+  binary runs in a sandboxed environment leveraging Linux namespaces, requiring careful
+  process management and file operations.

@@ -1,0 +1,10 @@
+tags:
+- path traversal
+- flask
+prerequisites:
+- HTTP
+- Linux
+summary: This challenge exploits a vulnerable Flask file server that naively concatenates
+  user input into Linux file paths, enabling directory traversal attacks. Participants
+  must craft precise HTTP requests to manipulate the file path resolution and access
+  restricted files, including the flag.

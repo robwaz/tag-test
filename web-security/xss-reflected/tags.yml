@@ -1,0 +1,9 @@
+tags:
+- Reflected XSS
+- URL Parameter
+prerequisites:
+- JavaScript
+- Flask
+summary: The challenge exploits a reflected cross-site scripting flaw by injecting
+  malicious HTML/JavaScript via URL parameters in a Flask app, causing a Selenium-controlled
+  victim page to trigger an alert and reveal the flag.

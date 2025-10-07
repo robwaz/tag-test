@@ -1,0 +1,12 @@
+tags:
+- socket
+- strace
+- sandbox
+prerequisites:
+- assembly
+- syscalls
+summary: This challenge requires building a minimal web server that accepts an incoming
+  connection. The solution must implement key networking syscalls (socket, bind, listen,
+  and accept) with specific criteria (binding to 0.0.0.0 on port 80) and operate within
+  a sandboxed environment using Linux namespaces. Strace is used to validate the correct
+  syscall sequence.
